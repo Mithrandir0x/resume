@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/Mithrandir0x/Documents/Repositarios/bio",
+			"path": ".",
             "file_exclude_patterns": ["*.sublime-*"]
 		}
 	]
