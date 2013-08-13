@@ -32,6 +32,16 @@ h3 small
   margin-top: 2px;
 }
 
+.obfuscatedField
+{
+  display: none;
+}
+
+.obfuscatedField .placeholder
+{
+  cursor: pointer;
+}
+
 /* THANK YOU!! http://davidwalsh.name/css-page-breaks */
 @media all {
   .page-break { display: none; }
@@ -39,6 +49,7 @@ h3 small
 
 @media print {
   .page-break { display: block; page-break-before: always; }
+  .obfuscatedField { display: none !important; }
 }
 
 h1,
