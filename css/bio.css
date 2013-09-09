@@ -50,6 +50,8 @@ h3 small
 @media print {
   .page-break { display: block; page-break-before: always; }
   .obfuscatedField { display: none !important; }
+  .no-print-field { display: none !important; }
+  .only-print-visible { display: block !important; }
 }
 
 h1,
